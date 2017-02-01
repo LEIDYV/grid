@@ -1,0 +1,145 @@
+
+			header{ 
+				background:#0077bb; 
+				color:#FFF; 
+											
+			}
+			
+			.main{ 
+				background:#fff;				
+			}
+			
+			button{ 
+			background: #8dc63e; 
+			/*background: #247;*/
+			color:#FFF; 
+			display:none;		
+			}
+			
+			/*navegacion */
+			
+			 nav  { 
+			background:#8dc63e; 
+			/*background: #247;*/
+			position:absolute;	
+			}
+			
+			nav ul { 
+				list-style:none;
+				padding:0;
+				margin:0;
+				overflow:hidden;				
+			}
+			nav > ul > li { 
+				float:left;				
+			}
+			
+			nav  ul  li a { 
+			color:#fff;
+			display:block;
+			padding:10px 35px;		
+			}
+			
+			nav  ul  li a:hover{ 
+			background:#b9e39d;
+			text-decoration:none;			
+			}
+						
+			nav > ul > li:hover div { 
+				display:table;		
+			}
+			
+			/*	Submenu*/
+			
+			nav  ul  li div { 
+				width:450px;	
+				position:absolute;
+				background:#f0f3ed;	
+				box-sizing:border-box;	
+				display:none;
+			}
+			nav  ul  li div ul { 
+				width:20%;	
+				display:table-cell;
+				border-right:1px solid rgba(255,255,255,.8);
+				box-sizing:border-box;	
+			}
+			nav  ul  li div ul:last-child { 
+				border:none;
+			}
+			
+			nav  ul  li div ul  li a { 	
+				color:#000;
+			}
+			.color1{ 
+				background:#fff;	
+				color:#000; 
+								
+			}
+			.color2{ 
+			color:#0068af; 				
+			}
+			
+			.color3{ 
+			color:#FF8C00; 				
+			}
+				
+			
+			.fondo02{ 
+			background:#2E8B57; 
+			color:#000; 				
+			}
+			
+			.fondo1{ 
+			background:#F5F5DC;
+			color:#000; 				
+			}
+			
+			footer{ 
+				background:#fafafa;
+				color:#000;	
+			}
+
+			
+			
+				
+			/*	Slaider imagen*/
+			
+			.slider{ 
+				width:100%;
+				margin:auto;
+				overflow:hidden;
+				/*box-shadow:0 0 0 2px #0077bb;*/
+			}
+			.slider ul{ 
+				display:flex;
+				padding:0;
+				width:400%;	
+				
+				animation: cambio 20s infinite;	
+				animation-timing-function:step-start;	
+				
+			}
+			.slider li{ 
+				width:100%;	
+				list-style:none;
+				
+			}
+			.slider img{ 
+				width:100%;	
+			}
+			@keyframes cambio{
+				0% { margin-left:0;}
+				20% { margin-left:0;}
+				
+				25% { margin-left:-100%;}
+				45% { margin-left:-100%;}
+				
+				50% { margin-left:-200%;}
+				70% { margin-left:-200%;}
+				
+				75% { margin-left:-300%;}
+				100% { margin-left:-300%;}
+			}
+			
+			
